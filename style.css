@@ -45,8 +45,37 @@ p {
     background-repeat: no-repeat;
 }
 
-.second-section {}
-
 #first-image {
     margin-top: 30px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.experience-area {
+    background-image: url(Background-images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullstack-developer {
+    border-left: 10px solid blue;
+}
+
+#baby-developer {
+    border-left: 10px solid rgba(255, 134, 14, 0.888);
+}
+
+footer p {
+    text-align: center;
+}
+
+section h1 {
+    margin-left: 20px;
 }
